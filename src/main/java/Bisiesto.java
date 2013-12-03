@@ -11,7 +11,7 @@ public class Bisiesto {
 	}
 
 	public Boolean Calcular(int anio) {
-		if(anio>=_Cien && anio%_Cien==0)
+		if(anio>=_Cien && anio%_Cien==0 && anio%_Cuatro==0)
 		{
 			return true;
 		}
